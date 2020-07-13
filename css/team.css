@@ -1,0 +1,18 @@
+
+      #header{
+        background: url("img/pic1.jpg") center center / cover no-repeat;
+      }
+
+      .display{
+        color: white;
+      }
+
+      .lead{
+        color: white;
+      }
+
+      img {
+      	width: 200px;
+      	height: 250px;
+      }
+    
