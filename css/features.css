@@ -1,25 +1,25 @@
-body {
-			padding: 70px;
-		}
+.features-area{
+padding: 70px;
+}
 
-		.jumbotron {
-			color: #2c3e50;
-		}
+.features.jumbotron {
+color: #2c3e50;
+}
 
-		.a {
-			color:blue;
-		}
+.features.a {
+color:blue;
+}
 
-		div.card {
-			
-			box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-			text-align: center;
-			height: 360px;
-			padding: 7px;
-		}
+.features.card {
+		
+box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+text-align: center;
+height: 360px;
+padding: 7px;
+}
 
 		
 
-	.card-title{ font-weight:600;  color:#ff6600;}	
-.service{ text-align:center; color:#ff6600; font-weight:600;}
-.title{ text-align:center;}
+.features.card-title{ font-weight:600;  color:#ff6600;}	
+.features.service{ text-align:center; color:#ff6600; font-weight:600;}
+.features.title{ text-align:center;}
