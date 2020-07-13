@@ -626,9 +626,11 @@ padding: 7px;
 .features.card-title{ font-weight:600;  color:#ff6600;}	
 .features.service{ text-align:center; color:#ff6600; font-weight:600;}
 .features.title{ text-align:center;}
+
+
 /*===========================
      TEAM CSS
-===========================
+===========================*/
   #team{
         background: url("img/pic1.jpg") center center / cover no-repeat;
       }
@@ -641,7 +643,7 @@ padding: 7px;
         color: white;
       }
 
-      img {
+      .img {
       	width: 200px;
       	height: 250px;
       }
