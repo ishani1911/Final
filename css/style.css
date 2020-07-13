@@ -5,7 +5,7 @@
 
   01.COMMON 
   02.HEADER
-  03.SERVICES
+  03.FEATURES
   04.ABOUT
   05.FAQ
   08.TEAM
@@ -600,7 +600,7 @@ p {
     opacity: 1; }
 /*===========================
      FEATURES
-===========================*/
+===========================
 .features-area{
 padding: 70px;
 }
@@ -628,7 +628,7 @@ padding: 7px;
 .features.title{ text-align:center;}
 /*===========================
      TEAM CSS
-===========================*/
+===========================
   #team{
         background: url("img/pic1.jpg") center center / cover no-repeat;
       }
