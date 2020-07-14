@@ -600,7 +600,8 @@ p {
     margin-top: 40px; }
 
 .header-hero-image {
-  padding-top: 45px; }
+  padding-top: 45px; 
+  padding-right:20px}
   .header-hero-image img {
     max-width: 650px;}
   @media (max-width: 767px) {
@@ -693,6 +694,10 @@ padding:30px;
       	width: 200px;
       	height: 250px;
       }
+
+      .card{
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+      }      
 /*=========================
       Testimonials
 ==========================*/
