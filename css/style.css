@@ -629,8 +629,8 @@ padding: 7px;
 /*===========================
      TEAM CSS
 ===========================*/
-  #team{
-        background: url("img/pic1.jpg") center center / cover no-repeat;
+  #header{
+        background: url("images/pic1.jpg") center center / cover no-repeat;
       }
 
       .display{
