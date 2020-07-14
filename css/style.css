@@ -653,7 +653,6 @@ padding: 70px;
 
 .features-jumbotron {
 color: #2c3e50;
-padding-bottom:20px;
 }
 
 .features.a {
@@ -666,13 +665,14 @@ padding:10px;
 box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 text-align: center;
 height: 360px;
-padding: 20px;
+padding:30px;
 }
 
 
-.features.card-title{ font-weight:600;  color:#ff6600; padding:10px;}	
-.features.service{ text-align:center; color:#ff6600; font-weight:600;}
-.features.title{ text-align:center;}
+.features-card-title{ font-weight:600;  color:#ff6600;padding:10px;}	
+.features-service{ text-align:center; color:#ff6600; font-weight:600;}
+.features-title{ text-align:center;padding:20px;}
+
 
 /*===========================
      TEAM CSS
