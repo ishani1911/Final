@@ -607,6 +607,7 @@ padding: 70px;
 
 .features-jumbotron {
 color: #2c3e50;
+padding-bottom:20px;
 }
 
 .features.a {
@@ -625,7 +626,7 @@ padding: 7px;
 
 .features-card-title{ font-weight:600;  color:#ff6600;}	
 .features-service{ text-align:center; color:#ff6600; font-weight:600;}
-.features-card-text{ text-align:center;}
+.features-title{ text-align:center;}
 /*===========================
      TEAM CSS
 ===========================*/
