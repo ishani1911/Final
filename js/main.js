@@ -11,15 +11,14 @@ $(function () {
 
     $(window).on('scroll', function (event) {
         var scroll = $(window).scrollTop();
-        if (scroll < 200) {
+        if (scroll < 20) {
             $(".navbar-area").removeClass("sticky");
-            $(".navbar .navbar-brand img").attr("src", "assets/images/logo.png");
+            $(".navbar .navbar-brand img").attr("src", "assets/images/mlogo.png");
         } else {
             $(".navbar-area").addClass("sticky");
-            $(".navbar .navbar-brand img").attr("src", "assets/images/logo.png");
+            $(".navbar .navbar-brand img").attr("src", "assets/images/mlogo.png");
         }
     });
-
 
 
     //===== Section Menu Active
@@ -88,23 +87,24 @@ $(function () {
 
 
     //=====  WOW active
-    $('.testimonial-author-slider').slick({
-	slidesToShow:1,
-	slidesToScroll:1,
-	arrows:false,
-	fade:true,
-	asNavFor:'.testimonial-content'
+
+$('.testimonial-author-slider').slick({
+    slidesToShow:1,
+    slidesToScroll:1,
+    arrows:false,
+    fade:true,
+    asNavFor:'.testimonial-content'
 });
 
 $('.testimonial-content').slick({
-	slidesToShow:1,
-	slidesToScroll:1,
-	arrows:true,
-	prevArrow:'<span class="prev">&larr;</span>',
-	nextArrow:'<span class="next">&rarr;</span>',
-	asNavFor:'.testimonial-author-slider',
-	dots:false,
-	focusOnSelect:true
+    slidesToShow:1,
+    slidesToScroll:1,
+    arrows:true,
+    prevArrow:'<span class="prev">&larr;</span>',
+    nextArrow:'<span class="next">&rarr;</span>',
+    asNavFor:'.testimonial-author-slider',
+    dots:false,
+    focusOnSelect:true
 });
 
     new WOW().init();
@@ -341,3 +341,4 @@ $('.testimonial-content').slick({
 
 
 });
+
