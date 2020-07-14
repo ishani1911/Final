@@ -601,7 +601,7 @@ p {
 
 .header-hero-image {
   padding-top: 45px; 
-  padding-right:20px}
+  }
   .header-hero-image img {
     max-width: 650px;}
   @media (max-width: 767px) {
