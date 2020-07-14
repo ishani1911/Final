@@ -657,6 +657,7 @@ color: #2c3e50;
 
 .features.a {
 color:blue;
+padding:10px;
 }
 
 .features-card {
@@ -671,6 +672,7 @@ padding:30px;
 .features-card-title{ font-weight:600;  color:#ff6600;padding:10px;}	
 .features-service{ text-align:center; color:#ff6600; font-weight:600;}
 .features-title{ text-align:center;padding:20px;}
+
 
 /*===========================
      TEAM CSS
