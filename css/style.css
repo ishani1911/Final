@@ -5,7 +5,7 @@
 
   01.COMMON 
   02.HEADER
-  03.SERVICES
+  03.FEATURES
   04.ABOUT
   05.FAQ
   08.TEAM
@@ -622,11 +622,11 @@ height: 360px;
 padding: 7px;
 }
 
-		
 
-.features-card-title{ font-weight:600;  color:#ff6600;}	
-.features-service{ text-align:center; color:#ff6600; font-weight:600;}
-.features-title{ text-align:center;}
+.features.card-title{ font-weight:600;  color:#ff6600;}	
+.features.service{ text-align:center; color:#ff6600; font-weight:600;}
+.features.title{ text-align:center;}
+
 /*===========================
      TEAM CSS
 ===========================*/
@@ -642,10 +642,32 @@ padding: 7px;
         color: white;
       }
 
-      img {
+      .img {
       	width: 200px;
       	height: 250px;
       }
+
+  /*===========================
+     BLOG CSS
+===========================*/
+
+.row-box{
+  border: 1px solid gray;
+  box-shadow: 0px 3px 10px rgba(0,0,0,.25);
+  text-decoration-color: black;
+}
+.auth-name{
+  color: black;
+}
+.auth-read-more{
+  color: gray;
+}
+.single-box:hover{
+  color: orange;
+}
+.blog-color{
+  color:orange;
+}
     
 
 /*===========================
