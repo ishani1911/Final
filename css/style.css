@@ -681,6 +681,7 @@ padding:30px;
 ===========================*/
   .jumbotron{
         background: url("images/pic1.jpg") center center / cover no-repeat;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);  
       }
 
       .display{
@@ -1360,6 +1361,7 @@ padding:30px;
 
 .single-blog .blog-image 
       img{border-top-left-radius:10px;border-top-right-radius:10px;width:100%}
+      box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
     .single-blog .blog-content{
       padding:0 25px 25px;
       margin-top:-22px;
