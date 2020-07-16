@@ -289,12 +289,15 @@ p {
 
 
 /*===== NAVBAR =====*/
+
 .navbar-area {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
+  height: 72;  
   z-index: 99;
+  background-color: #fff;
   -webkit-transition: all 0.3s ease-out 0s;
   -moz-transition: all 0.3s ease-out 0s;
   -ms-transition: all 0.3s ease-out 0s;
@@ -317,9 +320,10 @@ p {
     padding: 10px 0; }
 
 .navbar {
-  padding: 5px 10px;
-  border-radius: 0;
+  padding: 25px 0;
+  border-radius: 5px;
   position: relative;
+    background-color: #fff;
   -webkit-transition: all 0.3s ease-out 0s;
   -moz-transition: all 0.3s ease-out 0s;
   -ms-transition: all 0.3s ease-out 0s;
@@ -327,14 +331,14 @@ p {
   transition: all 0.3s ease-out 0s; }
 
 .navbar-brand {
-  padding: 0 25px; }
+  padding: 0; }
 
 .navbar-toggler {
   padding: 0; }
   .navbar-toggler .toggler-icon {
     width: 30px;
     height: 2px;
-    background-color: #fff;
+    background-color: #000;
     display: block;
     margin: 5px 0;
     position: relative;
@@ -387,7 +391,7 @@ p {
     padding: 5px 12px; } }
 
 .navbar-nav .nav-item {
-  margin-right: 25px;
+  margin-right: 45px;
   position: relative; }
   @media only screen and (min-width: 992px) and (max-width: 1199px) {
     .navbar-nav .nav-item {
@@ -401,7 +405,7 @@ p {
   .navbar-nav .nav-item a {
     font-size: 16px;
     font-weight: 400;
-    color: #fff;
+    color: #000;
     -webkit-transition: all 0.3s ease-out 0s;
     -moz-transition: all 0.3s ease-out 0s;
     -ms-transition: all 0.3s ease-out 0s;
@@ -419,7 +423,7 @@ p {
       .navbar-nav .nav-item a {
         display: block;
         padding: 4px 0;
-        color: #2e2e2e; } }
+        color: #2E2E2E; } }
   .navbar-nav .nav-item:hover .sub-menu {
     top: 100%;
     opacity: 1;
@@ -432,7 +436,7 @@ p {
         top: 0; } }
   .navbar-nav .nav-item .sub-menu {
     width: 200px;
-    background-color: #fff;
+    background-color: #000;
     -webkit-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1);
     -moz-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1);
     box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1);
@@ -470,7 +474,7 @@ p {
         color: #2E2E2E; }
         .navbar-nav .nav-item .sub-menu li a.active, .navbar-nav .nav-item .sub-menu li a:hover {
           padding-left: 25px;
-          color: #fc9432; }
+          color: #000000; }
 
 .navbar-nav .sub-nav-toggler {
   display: none; }
@@ -552,6 +556,10 @@ p {
 
 .sticky .navbar-nav .nav-item.active > a, .sticky .navbar-nav .nav-item:hover > a {
   color: #fc9432; }
+
+	  
+	  
+	  
 
 /*===== HEADER HERO =====*/
 
