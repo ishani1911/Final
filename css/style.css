@@ -334,10 +334,10 @@ p {
 
 .navbar-toggler {
   padding: 0; }
-  .navbar-toggler .toggler-icon {
+  .navbar-toggler .navbar-toggler-icon {
     width: 30px;
     height: 2px;
-    color: #000;
+    background-color: #000;
     display: block;
     margin: 5px 0;
     position: relative;
