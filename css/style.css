@@ -334,7 +334,7 @@ p {
 
 .navbar-toggler {
   padding: 0; }
-  .navbar-toggler toggler-icon {
+  .navbar-toggler .toggler-icon {
     width: 30px;
     height: 2px;
     background-color: #000;
