@@ -294,8 +294,7 @@ p {
   position: absolute;
   top: 0;
   left: 0;
-  width: 100%;
-  height: 72;  
+  width: 100%; 
   z-index: 99;
   background-color: #fff;
   -webkit-transition: all 0.3s ease-out 0s;
@@ -323,7 +322,7 @@ p {
   padding: 25px 0;
   border-radius: 5px;
   position: relative;
-    background-color: #fff;
+  background-color: #fff;
   -webkit-transition: all 0.3s ease-out 0s;
   -moz-transition: all 0.3s ease-out 0s;
   -ms-transition: all 0.3s ease-out 0s;
@@ -549,7 +548,8 @@ p {
     background-position: right center; }
 
 .sticky .navbar-toggler .toggler-icon {
-  background-color: #2E2E2E; }
+  background-color: #ffffff;
+  color: #000000;}
 
 .sticky .navbar-nav .nav-item a {
   color: #2E2E2E; }
@@ -1377,10 +1377,16 @@ width:auto;
   /*===========================
      BLOG CSS
 ===========================*/
+.single-blog{
+  border: 1px solid powder white;
+  border-radius: 5px;
+-webkit-box-shadow:0 9px 40px 0 rgba(41,54,81,.34);
+  -moz-box-shadow:0 9px 40px 0 rgba(41,54,81,.34);
+  box-shadow:0 9px 40px 0 rgba(41,54,81,.34);}
 
 .single-blog .blog-image 
-      img{border-top-left-radius:10px;border-top-right-radius:10px;width:100%}
-      box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+      img{border-top-left-radius:10px;border-top-right-radius:10px;width:100%;}
+     
     .single-blog .blog-content{
       padding:0 25px 25px;
       margin-top:-22px;
