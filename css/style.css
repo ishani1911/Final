@@ -657,31 +657,42 @@ p {
 /*===========================
      FEATURES
 ===========================*/
-.features-area{
-padding: 70px;
-}
-
-.features-jumbotron {
-color: #2c3e50;
-}
-
-.features.a {
-color:blue;
+.features-card{
+width:30.5%;
+float:left;
+margin:10px;
 padding:10px;
+height:auto;
+text-align:center;
+  border: 1px solid grey;
+  border-radius: 5px;
+-webkit-box-shadow:0 9px 40px 0 rgba(41,54,81,.34);
+  -moz-box-shadow:0 9px 40px 0 rgba(41,54,81,.34);
+  box-shadow:0 9px 40px 0 rgba(41,54,81,.34);
+  overflow:hidden;
 }
 
-.features-card {
-		
-box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-text-align: center;
-height: 360px;
-padding:30px;
+@media only screen and (min-width:992px) and (max-width:1199px){
+  .features-card{
+height:230px;}
+}
+@media only screen and (min-width:768px) and (max-width:991px){
+.features-card{ width:80%;}
+}
+@media screen and (max-width:767px){
+.features-card{
+width:96%;
+}}
+
+.jumbotron {
+color: #2c3e50;
+width:auto;
 }
 
 
-.features-card-title{ font-weight:600;  color:#ff6600;padding:10px;}	
-.features-service{ text-align:center; color:#ff6600; font-weight:600;}
-.features-title{ text-align:center;padding:20px;}
+.feature-card-title{ font-weight:600;  color:#ff6600; padding-top:7px;}	
+.feature-service{ text-align:center; color:#ff6600; font-weight:600;}
+.feature-title{ text-align:center;}
 
 
 /*===========================
