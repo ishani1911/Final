@@ -663,7 +663,6 @@ margin-top: 40px;
 width:100%;
 float:left;
 margin:20px;
-margin-right:35px;
 padding:20px;
 height:auto;
 text-align:center;
@@ -684,7 +683,7 @@ height:300px;}
 }
 @media screen and (max-width:767px){
 .features-card{
-width:96%;
+width:90%;
 }}
 
 .jumbotron {
