@@ -712,7 +712,7 @@ width:auto;
 /*===========================
      TEAM CSS
 ===========================*/
-  .jumbotron{
+ .jumbotron{
         background: url("images/pic1.jpg") center center / cover no-repeat;
 	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);  
       }
@@ -725,9 +725,19 @@ width:auto;
         color: white;
       }
 
-      .img {
-      	width: 200px;
-      	height: 250px;
+      .card-img-top {
+        border-radius: 50%;
+        width:250px;
+        height: 250px;
+      }
+
+      .card {
+        border: none;
+        align-items: center;
+      }
+
+      .card-body {
+        text-align: center;
       }
 
       .card{
