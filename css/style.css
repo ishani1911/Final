@@ -1401,30 +1401,26 @@ width:auto;
   /*===========================
      BLOG CSS
 ===========================*/
-.single-blog{
-  box-border: 1px solid rgba(100,111,135,.2);
--webkit-box-shadow:0 9px 40px 0 rgba(41,54,81,.34);
-  -moz-box-shadow:0 9px 40px 0 rgba(41,54,81,.34);
-  box-shadow:0 9px 40px 0 rgba(41,54,81,.34);}
+
 
 .single-blog .blog-image 
       img{border-top-left-radius:10px;border-top-right-radius:10px;width:100%;}
      
     .single-blog .blog-content{
       padding:0 25px 25px;
-      margin-top:-22px;
+      margin-top:-18px;
       position:relative;border:1px;
       border:2px solid rgba(100,111,135,.2);
       border-bottom-left-radius:10px;
       border-bottom-right-radius:10px;border-top:0}
     .single-blog .blog-content .blog-meta .author{
       width:35px;height:100px;
-      border-radius:50%;
+      border-radius:0%;
       padding:2px;
       background-color:#fff;
       overflow:hidden}
     .single-blog .blog-content .blog-meta .author img{
-        border-radius:50%}
+        border-radius:0%}
     .single-blog .blog-content .blog-meta .blog-list{
       margin-top:10px}
     .single-blog .blog-content .blog-meta .blog-list li{
@@ -1452,7 +1448,7 @@ width:auto;
           -o-transition:all .3s ease-out 0s;
           transition:all .3s ease-out 0s}
           .blog-title a{
-          font-size:22px;
+          font-size:20px;
           color:#14171c;
           font-weight:600;
           margin-top:25px;
@@ -1555,7 +1551,6 @@ width:auto;
     transition-timing-function: ease;
     transition-delay: 0s;
 }
-
 
 /*===========================
        11.FOOTER  css 
@@ -1672,7 +1667,55 @@ width:auto;
     transition: all 0.3s ease-out 0s; }
     .copyright-content a:hover {
       color: #fc9432; }
-
+/*===== BACK TO TOP =====*/
+.back-to-top {
+  font-size: 20px;
+  color: #fff;
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 5px;
+    background:-webkit-linear-gradient(left,#fe8464 0%,#f07b07 50%,#fe8464 100%);
+  background:-o-linear-gradient(left,#fe8464 0%,#f07b07 50%,#fe8464 100%);
+  background:linear-gradient(to right,#fe8464 0%,#f07b07 50%,#fe8464 100%);
+  
+  text-align: center;
+  z-index: 99;
+  -webkit-transition: all 0.3s ease-out 0s;
+  -moz-transition: all 0.3s ease-out 0s;
+  -ms-transition: all 0.3s ease-out 0s;
+  -o-transition: all 0.3s ease-out 0s;
+  transition: all 0.3s ease-out 0s;
+  display: none; }
+  .back-to-top:hover {
+    color: #fff; 
+}
+.lni{
+  display: inline-block;
+  font:normal normal normal lem/1 'LineIcons';
+  font-style: normal;
+  font-variant-ligatures: normal;
+  font-variant-caps: normal;
+  font-variant-numeric: normal;
+  font-variant-east-asian: normal;
+  font-weight: normal;
+  font-stretch: normal;
+  font-size: lem;
+  line-height: 1;
+  font-family: LineIcons;
+  speak: none;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+}
+.lni-chevron-up::before {
+    content: "\ea5e";
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
 
 
 
