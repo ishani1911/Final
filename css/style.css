@@ -660,6 +660,7 @@ p {
 margin-top: 40px;
 }
 .features-card{
+align-selft:center;
 width:100%;
 float:left;
 margin:20px;
