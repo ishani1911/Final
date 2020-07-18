@@ -15,9 +15,30 @@
 
 <!--Bootstrap CSS-->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-     <link rel="stylesheet" href="css/style.css">
-     <link rel="stylesheet" href="css/animate.css">
-     <link rel="stylesheet" href="css/default.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/slick-theme.css">
+    <link rel="stylesheet" href="css/LineIcons.2.0.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+        
+    <!--====== Bootstrap CSS ======-->
+    <link rel="stylesheet" href="css/bootstrap-4.5.0.min.css">
+    
+    <!--====== Default CSS ======-->
+    <link rel="stylesheet" href="css/default.css">
+    
+    <!--====== Style CSS ======-->
+    <link rel="stylesheet" href="css/style.css">
+	
+	
+
+    <!--  Glider.js for Screen Shotts area -->
+<link rel="stylesheet" href="css/glide.core.min.css">
+  <link rel="stylesheet" href="css/glide.theme.min.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+
+	
+	
       
 </head>
 
@@ -25,28 +46,33 @@
        
     <header class="header-area mb-40">
     <div class="navbar-area">
-    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+     <div class="container">
+        <div class="row">
+           <div class="col-lg-12">
+        <nav class="navbar navbar-expand-lg">
         <a class="navbar-brand" href="#"><img src="images/logo.png" alt="logo"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+          <span class="toggler-icon"></span>
+	  <span class="toggler-icon"></span>
+	  <span class="toggler-icon"></span>
         </button>
       
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ml-auto">
+        <div class="collapse navbar-collapse sub-menu-bar" id="navbarSupportedContent">
+          <ul id="nav" class="navbar-nav ml-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
+              <a class="page-scroll" href="#home">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#features">Features</a>
+              <a class="page-scroll" href="#features">Features</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#about">About</a>
+              <a class="page-scroll" href="#about">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#team">Team</a>
+              <a class="page-scroll" href="#team">Team</a>
             </li>  
             <li class="nav-item">
-              <a class="nav-link" href="#blog">Blog</a>
+              <a class="page-scroll" href="#blog">Blog</a>
             </li>
 
           </ul>
@@ -58,12 +84,14 @@
         </div>
       </nav>
     </div>
-    
+  </div>
+</div>
+</div>	    
       <div id="home" class="header-hero bg_cover"  style="background-image: url(images/header3.jpg)">
-        <div class="container">
-            <div class="row pt-60">
+        <div class="container mb-40">
+            <div class="row pt-60 mb-40">
                 <div class="col-lg-8 justify-content-left">
-                    <div class="header-hero-content text-left">
+                    <div class="header-hero-content text-left wow fadeInLeft">
                         <h3 class="header-sub-title">Want to get a job done?</h3>
                         <h2 class="header-title-black">HIRE THE BEST WITH US</h2>
                         <p class="text">Get assured with SoDo</p>
@@ -73,9 +101,9 @@
                     </div> <!-- header hero content -->
         
                 </div>
-                <div class="col pt-90">
-                 <div class="header-hero-image">
-                  <img src="images/Contact.gif">  
+                <div class="col-lg-4 pt-30">
+                 <div class="header-hero-image wow fadeInRight">
+                  <img src="images/hh3.png">  
                 </div>
                 </div>
              </div> <!-- row -->
@@ -87,76 +115,175 @@
 <!--====HEADER ENDS====-->
 	
  <!--=====FEATURES========-->  
-    <section class="features-area">
-		<div class="container">
-			<div class="features-jumbotron">
-                		<h2 class ="features-service"> SERVICES</h2>
-				<h3 class="features-title"><b>Clean and simple designs,<br></b> Comes with everything you need to get started!</h3>
-			</div>
-			<div class="row">
-				<div class="col-lg-4 mb-3">
-				<div class="card">
-                		<div class="features-card">
-                			<svg width="6em" height="6em" viewBox="0 0 16 16" class="bi bi-award-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+     <section class="features mt-40 mb-40">
+   <div class="container pt-40">
+   <div class="section-title">
+<div class="line m-auto"></div>
+ <h5 class="sub-title">SERVICES</h5>
+<h3 class="title">Clean and simple designs,<b> Comes with everything you need to get started!</b></h3>
+	    </div>
+	
+     <div class="row d-flex align-items-center justify-content-center">
+	     <div class="col-md-4">
+           <div class="features-card wow fadeInUpBig pb-30 pt-30" data-wow-duration="2s" data-wow-delay="0.2s">
+           <svg width="4em" height="4em" viewBox="0 0 16 16" class="bi bi-award-fill" fill="black" xmlns="http://www.w3.org/2000/svg" pt-10>
   						<path d="M8 0l1.669.864 1.858.282.842 1.68 1.337 1.32L13.4 6l.306 1.854-1.337 1.32-.842 1.68-1.858.282L8 12l-1.669-.864-1.858-.282-.842-1.68-1.337-1.32L2.6 6l-.306-1.854 1.337-1.32.842-1.68L6.331.864 8 0z"/>
   						<path d="M4 11.794V16l4-1 4 1v-4.206l-2.018.306L8 13.126 6.018 12.1 4 11.794z"/>
 					</svg>
-                  			<h5 class="features-card-title">Clean</h5>
-                  			<p class="features-card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo aperiam nam quisquam sunt, laborum officia dolores doloremque vel debitis sed consectetur enim nostrum veritatis quod, atque a error nesciunt eligendi.</p>
-					<a href="#" class="a">Learn more</a>	
-                		</div>
-             	 		</div>
-				</div>
-
-				<div class="col-lg-4 mb-3">
-				<div class="card">
-                		<div class="features-card">
-                			<svg width="6em" height="6em" viewBox="0 0 16 16" class="bi bi-calendar-plus-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+           <h3 class="feature-card-title mt-30">Clean</h3><hr>
+                  		<p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo aperiam nam quisquam sunt, laborum officia dolores doloremque vel debitis sed consectetur enim nostrum veritatis quod, atque a error nesciunt eligendi.</p>
+                  		<br><a href="#" class="featureref">Learn more</a>
+                  		
+            </div> 
+	     </div>
+	     <div class="col-md-4">
+            <div class="features-card wow fadeInUpBig pb-30 pt-30" data-wow-duration="2s" data-wow-delay="0.5s">
+<svg width="4em" height="4em" viewBox="0 0 16 16" class="bi bi-calendar-plus-fill" fill="black" xmlns="http://www.w3.org/2000/svg" pt-10>
   						<path fill-rule="evenodd" d="M4 .5a.5.5 0 0 0-1 0V1H2a2 2 0 0 0-2 2v1h16V3a2 2 0 0 0-2-2h-1V.5a.5.5 0 0 0-1 0V1H4V.5zM0 5h16v9a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V5zm8.5 3.5a.5.5 0 0 0-1 0V10H6a.5.5 0 0 0 0 1h1.5v1.5a.5.5 0 0 0 1 0V11H10a.5.5 0 0 0 0-1H8.5V8.5z"/>
 					</svg>
-                  			<h5 class="features-card-title">Robust</h5>
-                  			<p class="features-card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo aperiam nam quisquam sunt, laborum officia dolores doloremque vel debitis sed consectetur enim nostrum veritatis quod, atque a error nesciunt eligendi.</p>
-                  			<a href="#" class="a">Learn more</a>	
-                		</div>
-             	 		</div>
-				</div>
-
-				<div class="col-lg-4 mb-3">
-				<div class="card">
-                		<div class="features-card">
-                			<svg width="6em" height="6em" viewBox="0 0 16 16" class="bi bi-bar-chart-line-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <h3 class="feature-card-title mt-30">Robust</h3><hr>
+                  		<p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo aperiam nam quisquam sunt, laborum officia dolores doloremque vel debitis sed consectetur enim nostrum veritatis quod, atque a error nesciunt eligendi.</p>
+                  		<br><a href="#" class="featureref">Learn more</a>
+                  		
+             </div>
+	     </div> 
+	     <div class="col-md-4">
+             <div class="features-card wow fadeInUpBig pb-30 pt-30" data-wow-duration="2s" data-wow-delay="0.8s">  
+            <svg width="4em" height="4em" viewBox="0 0 16 16" class="bi bi-bar-chart-line-fill" fill="black" xmlns="http://www.w3.org/2000/svg" pt-10>
   						<rect width="4" height="5" x="1" y="10" rx="1"/>
  					 	<rect width="4" height="9" x="6" y="6" rx="1"/>
   						<rect width="4" height="14" x="11" y="1" rx="1"/>
   						<path fill-rule="evenodd" d="M0 14.5a.5.5 0 0 1 .5-.5h15a.5.5 0 0 1 0 1H.5a.5.5 0 0 1-.5-.5z"/>
-					</svg>
-                  			<h5 class="features-card-title">Powerful</h5>
-                  			<p class="features-card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo aperiam nam quisquam sunt, laborum officia dolores doloremque vel debitis sed consectetur enim nostrum veritatis quod, atque a error nesciunt eligendi.</p>
-                  			<a href="#" class="a">Learn more</a>
-                		</div>
-             	 		</div>
-				</div>
-			</div>
-		</div>
+					</svg>            
+             <h3 class="feature-card-title mt-30">Powerful</h3><hr>
+                  		<p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo aperiam nam quisquam sunt, laborum officia dolores doloremque vel debitis sed consectetur enim nostrum veritatis quod, atque a error nesciunt eligendi.</p>
+                  		<br><a href="#" class="featureref">Learn more</a>
+                  	</div>	
+                	</div>
+             	 </div>
+	   </div>
+	
+</section>
+<!--===Features ends===-->
+
+
+<!-- ScreenShots area-->
+<section>	
+<div class="section-title mt-40">
+<div class="line m-auto"></div>
+<h5 class="sub-title">Screenshots</h5>
+<h3 class="title">Get a Glimpse,<span> of Our Mobile App</span></h3>
+</div> 	
+	
+<div class="container1">
+	
+<div class="glide mb-40">
+  <div class="glide__track" data-glide-el="track">
+    <ul class="glide__slides">
+      <li class="glide__slide"><img src="images/11.jpg" height="550px" width="350px" /></li>
+      <li class="glide__slide"><img src="images/12.jpg" height="550px" width="350px" /></li>
+      <li class="glide__slide"><img src="images/13.jpg" height="550px" width="350px" /></li>
+      <li class="glide__slide"><img src="images/14.jpg" height="550px" width="350px" /></li>
+      <li class="glide__slide"><img src="images/15.jpg" height="550px" width="350px" /></li>
+      <li class="glide__slide"><img src="images/16.jpg" height="550px" width="350px" /></li>
+    </ul>
+  </div>
+
+  <div class="glide__arrows" data-glide-el="controls">
+    <button class="glide__arrow glide__arrow--left" data-glide-dir="<"><</button>
+    <button class="glide__arrow glide__arrow--right" data-glide-dir=">">></button>
+  
+  </div>
+
+<div class="glide__bullets" data-glide-el="controls[nav]">
+    <button class="glide__bullet" data-glide-dir="=0"></button>
+    <button class="glide__bullet" data-glide-dir="=1"></button>
+    <button class="glide__bullet" data-glide-dir="=2"></button>
+    <button class="glide__bullet" data-glide-dir="=4"></button>
+    <button class="glide__bullet" data-glide-dir="=5"></button>
+    <button class="glide__bullet" data-glide-dir="=6"></button>
+  </div>
+</div>
+
+</div>
+	</section>
+
+
+<!-- ScreenShots area end-->
+	
+
+<!--====Testimonial starts====-->
+
+<section id="testimonial" class="testimonial-area mt-40 mb-40">
+<div class="section-title">
+<div class="line m-auto"></div>
+<h5 class="sub-title">Testimonials</h5>
+<h3 class="title">See What Our <span>Clients Say About Us</span></h3>
+</div> 
+<div class="container">
+<div class="row align-items-center">
+<div class="col-xl-4 col-lg-3">
+<div class="testimonial-author mt-20">
+
+<div class="testimonial-author-wrapper">
+<div class="testimonial-quote d-flex align-items-center justify-content-center">
+<img src="images/quote.svg" alt="quote">
+</div>
+<div class="testimonial-author-slider">
+<div class="single-author">
+<img src="images/author-1.jpg" alt="author">
+</div>
+<div class="single-author">
+<img src="images/author-2.jpg" alt="author">
+</div>
+<div class="single-author">
+<img src="images/author-3.jpg" alt="author">
+</div>
+</div>
+</div>
+</div> 
+</div>
+<div class="col-xl-8 col-lg-9">
+<div class="testimonial-wrapper wow fadeInRightBig" data-wow-duration="2s" data-wow-delay="0.5s">
+<div class="testimonial-content">
+<div class="single-testimonial">
+<p class="text">Lorem ipsum dolor sitrg amet, consetetur sadipscing elitr sed diam nonumy eirmod tempor invidunt ut labore et dolore magna iquyam erat, sed diam voluptua. At vero eos et accusam et justo dudolores etea rebum. Stet clita kasd gubergren, no sea takimata sanctus esth Lorem ipsum dolor sit amet.</p>
+<h4 class="holder-name">Jessica John <span>/ Creative Designer</span></h4>
+</div> 
+<div class="single-testimonial">
+<p class="text">Lorem ipsum dolor sitrg amet, consetetur sadipscing elitr sed diam nonumy eirmod tempor invidunt ut labore et dolore magna iquyam erat, sed diam voluptua. At vero eos et accusam et justo dudolores etea rebum. Stet clita kasd gubergren, no sea takimata sanctus esth Lorem ipsum dolor sit amet.</p>
+<h4 class="holder-name">Michel Smith <span>/ Entrepreneur</span></h4>
+</div> 
+<div class="single-testimonial">
+<p class="text">Lorem ipsum dolor sitrg amet, consetetur sadipscing elitr sed diam nonumy eirmod tempor invidunt ut labore et dolore magna iquyam erat, sed diam voluptua. At vero eos et accusam et justo dudolores etea rebum. Stet clita kasd gubergren, no sea takimata sanctus esth Lorem ipsum dolor sit amet.</p>
+<h4 class="holder-name">Sara Smith <span>/ Startup Founder</span></h4>
+
+</div> 
+</div> 
+<a href="#" class="main-btn">Add Review</a>
+</div> 
+</div>
+</div>
 </section>
 
-
+<!--==Testimonial ends==-->
+	
 <!--====TEAM======-->	
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-  <section id="header" class="jumbotron text-center" style="background: url(images/pic1.jpg) center center / cover no-repeat;">
-	<div class="container">  
-              <h1 class="display" style="color: white;">Team</h1>
-              <p class="lead">Meet Our Creative Team Members</p>  
-        </div>  
-        
-</section>
-	
+
+   <section id="header" class="jumbotron text-center" style="background: url(images/pic1.jpg) center center / cover no-repeat;">
+	<div class="container>
+          <strong><h1 class="display" style="color: white;">TEAM</h1></strong>
+              <h3 class="lead">Meet Our Creative Team Members</h3>  
+        </div> 
+   </section>
+     
        <section id="gallery">
          <div class="container">
           <div class="row">
 		  
             <div class="col-lg-4 mb-3">
-              <div class="card">
+              <div class="card wow fadeInUpBig" data-wow-duration="2s" data-wow-delay="0.1s">
                 <img class="card-img-top" src="images/pic2.jpg" alt="">
                  <div class="card-body">
                   <h5 class="card-title">Pratik Patel</h5>
@@ -171,7 +298,7 @@
             </div>
 
             <div class="col-lg-4 mb-3">
-                <div class="card">
+                <div class="card wow fadeInUpBig" data-wow-duration="2s" data-wow-delay="0.3s">
                   <img class="card-img-top" src="images/pic3.jpg" alt="">
                   <div class="card-body">
                     <h5 class="card-title">Kazi Mizan</h5>
@@ -186,7 +313,7 @@
               </div>
  
               <div class="col-lg-4 mb-3">
-                  <div class="card">
+                  <div class="card wow fadeInUpBig" data-wow-duration="2s" data-wow-delay="0.5s">
                     <img class="card-img-top" src="images/pic4.jpg" alt="">
                     <div class="card-body">
                       <h5 class="card-title">Dylan Flynn</h5>
@@ -204,92 +331,107 @@
        </section>
 	</section>    
 	     
-<!--====TEAM ENDS====-->
-
+<!--====TEAM ENDS====-->	
+	
 <!--===BLOG start==-->
+     
+<section id="blog" class="blog-area mt-40 mb-40">
 <div class="container">
-<div class="row mt-50">
-  <div class="col-sm-12 align-self-center ">
-    <h3 class="text-center blog-color">Blog</h3>   
-  </div>
-  <div class="col-sm-12 align-self-center mt-2">
-    <h2 class=" text-center col-sm-12">BLearn More From Our <br><section><h3>Latest News</h3></section></h2>    
-  </div>
+<div class="row justify-content-center mt-50">
+<div class="col-lg-6">
+<div class="section-title text-center pb-40">
+<div class="line m-auto"></div>
+<h5 class="sub-title">Blog</h5>
+<h3 class="title">Learn More From<br> Our <b>Latest News</b></h3>
+</div> 
+</div>
+</div> 
+<div class="row justify-content-center">
+<div class="col-lg-4 col-md-7">
+<div class="single-blog mt-30 wow fadeInUpBig" data-wow-duration="2s" data-wow-delay="0.2s">
+<div class="blog-image">
+<img src="images/author-1.jpg" alt="blog">
+</div>
+<div class="blog-content">
+  <div class="mt-10">
+<h4 class="blog-title"><a href="#" > Business Growth & Analysis</a></h4>
+</div>
+<div class="blog-meta">
+  
+<ul class="blog-list">
+<li> By- <a href="#">Abraham</a></li>
+<div class="mt-10">
+<li><a href="#">15 Feb, 2022</a></li>
+</div>
+</ul>
+</div>
+<div class="blog-text">
+
+<p class="text">Lorem ipsum dolor sit aconsect dipisicing elit, sed do eiusmod to incididunt uabore etdolore magna aliqua.</p>
+<a class="more btn btn-lg btn-blog-bg" href="#"> Read More</a>
 </div>
 </div>
-
- <div class="container">
-        <div class="row row-box mt-40">
-            
-       
-
-            <div class="col-12 col-sm-4 col-md-3 align-self-center single-box ">
-              <img class="d-flex mr-3 img-thumbnail align-self-center"
-                            src="images/author-1.jpg" alt="">
-              <h6 class="offset-2">
-                <ul class="blog-list">
-<li><a href="#"><section class="auth-name single-box "> Abraham</section></a></li>
-<li><a href="#"><section class="auth-name single-box "> 15 Feb, 2022</section></a></li>
-</ul>
-</h6>
-            </div>
-            <div class="col col-sm col-md media align-self-center">
-                    
-                    <div class="media-body">
-                        <h4 class="blog-title"><a href="#"><section class="auth-name single-box "> Business Groth & Analysis</section></a></h4>
-<p class="text">Lorem ipsum dolor sit aconsect dipisicing elit, sed do eiusmod to incididunt uabore etdolore magna aliqua.</p>
-<a class="more" href="#"><span class="line-1"></span><section class="auth-read-more single-box "> Read More </section><span class="line-2"></span></a>
-                    </div>
-                </div>
-
-        
+</div> 
 </div>
 
-        <div class="row row-box mt-4">
-            <div class="col-12 col-sm-4 col-md-3 align-self-center single-box ">
-              <img class="d-flex mr-3 img-thumbnail align-self-center"
-                            src="images/author-2.jpg" alt="">
-              <h6 class="offset-2">
-                <ul class="blog-list">
-<li><a href="#"><section class="auth-name single-box "> Jesika Jon</section></a></li>
-<li><a href="#"><section class="auth-name single-box "> 15 Feb, 2022</section></a></li>
-</ul>
-</h6>
-            </div>
-            <div class="col col-sm col-md media align-self-center">
-                    
-                    <div class="media-body">
-                    <h4 class="blog-title"><a href="#"><section class="auth-name single-box ">Digital Market Analysis</section></a></h4>
-<p class="text">Lorem ipsum dolor sit aconsect dipisicing elit, sed do eiusmod to incididunt uabore etdolore magna aliqua.</p>
-<a class="more" href="#"><span class="line-1 auth-name"></span><section class="auth-read-more single-box "> Read More </section><span class="line-2"></span></a>
-                    </div>
-                </div>
-            
-        </div>
 
-        <div class="row row-box mt-4 single-box ">
-            <div class="col-12 col-sm-4 col-md-3 align-self-center single-box ">
-              <img class="d-flex mr-3 img-thumbnail align-self-center"
-                            src="images/author-3.jpg" alt="">
-              <h6 class="offset-2">
-                <ul class="blog-list">
-<li><a href="#"><section class="auth-name single-box "> Michel Smith</section></a></li>
-<li><a href="#"><section class="auth-name single-box "> 15 Feb, 2022</section></a></li>
+<div class="col-lg-4 col-md-7">
+<div class="single-blog mt-30 wow fadeInUpBig" data-wow-duration="2s" data-wow-delay="0.2s">
+<div class="blog-image">
+<img src="images/author-2.jpg" alt="blog">
+</div>
+<div class="blog-content">
+<div class="mt-10">
+<h4 class="blog-title"><a href="#">Digital Market Analysis</a></h4>
+</div>
+<div class="blog-meta">
+  
+<ul class="blog-list">
+<li>BY- <a href="#">Jesika Jon</a></li>
+<div class="mt-10">
+<li><a href="#">15 Feb, 2022</a></li>
+</div>
 </ul>
-</h6>
-            </div>
-              <div class="col col-sm col-md media align-self-center">
-                    
-                    <div class="media-body">
-                        <h4 class="blog-title"><a href="#"><section class="auth-name single-box "> Creative Product Analysis</section></a></h4>
+</div>
+<div class="blog-text">
+
 <p class="text">Lorem ipsum dolor sit aconsect dipisicing elit, sed do eiusmod to incididunt uabore etdolore magna aliqua.</p>
-<a class="more" href="#"><span class="line-1"></span><section class="auth-read-more single-box"> Read More </section><span class="line-2"></span></a>
-                    </div>
-                </div>
-                
-        </div>
-              
-           </div>
+<a class="more btn btn-lg btn-blog-bg" href="#"> Read More</span></a>
+</div>
+</div>
+</div> 
+</div>
+
+
+<div class="col-lg-4 col-md-7">
+<div class="single-blog mt-30 wow fadeInUpBig" data-wow-duration="2s" data-wow-delay="0.2s">
+<div class="blog-image">
+<img src="images/author-3.jpg" alt="blog">
+</div>
+<div class="blog-content">
+  <div class="mt-10">
+<h4 class="blog-title text-dark"><a href="#"> Creative Product Analysis</a></h4>
+</div>
+<div class="blog-meta">
+
+<ul class="blog-list">
+<li>BY- <a href="#">Michel Smith</a></li>
+<div class="mt-10">
+<li><a href="#">15 Feb, 2022</a></li>
+</div>
+</ul>
+</div>
+<div class="blog-text">
+
+<p class="text">Lorem ipsum dolor sit aconsect dipisicing elit, sed do eiusmod to incididunt uabore etdolore magna aliqua.</p>
+<a class="more btn btn-lg btn-blog-bg" href="#"> Read More </a>
+</div>
+</div>
+</div> 
+</div>
+</div> 
+</div> 
+</section>
 
 <!--====== FOOTER PART START ======-->
 
@@ -359,10 +501,73 @@
 
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>    
- 
- <!--====== Main js ======-->
- <script src="assets/js/main.js"></script>
- 
 
+ <!--====== Main js ======-->
+  <script src="js/vendor/jquery-3.5.1-min.js"></script>
+    <script src="js/vendor/modernizr-3.7.1.min.js"></script>
+    
+    <!--====== Bootstrap js ======-->
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap-4.5.0.min.js"></script>
+
+    <script src="js/slick.min.js"></script>
+    
+     <script src="js/jquery.easing.min.js"></script>
+    <script src="js/scrolling-nav.js"></script>
+    
+    <!--====== Plugins js ======-->
+    <script src="js/plugins.js"></script>
+    
+    <!--====== Counter Up js ======-->
+    <script src="js/waypoints.min.js"></script>
+    <script src="js/jquery.counterup.min.js"></script>
+    
+<script src="js/ajax-contact.js"></script>
+    
+    <!--====== Scrolling Nav js ======-->
+ 
+    <!--====== wow js ======-->
+    <script src="js/wow.min.js"></script>
+
+    
+    <!--====== Particles js ======-->
+    <script src="js/particles.min.js"></script>
+    
+    <!--====== Main js ======-->
+    <script src="js/main.js"></script>
+
+	
+
+<!-- for ScreenShort area  -->
+
+<script src="https://cdn.jsdelivr.net/npm/@glidejs/glide"></script>
+
+
+<script>
+  
+  const config = {
+    type : 'carousel',
+    perView : 3,
+    startAt: 1,
+    breakpoints:{
+      1080: {
+        perView:2
+      },
+      720: {
+        perView:1
+      }
+    }
+  }
+
+
+  new Glide('.glide', config).mount()
+</script>
+
+
+
+<!-- ScreenShots area ends-->
+	
+	
+	
+	
 </body>
