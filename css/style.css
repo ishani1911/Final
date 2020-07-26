@@ -296,7 +296,7 @@ p {
   left: 0;
   width: 100%; 
   z-index: 99;
-  background-color: #fff;
+  /*background-color: #fff;*/
   -webkit-transition: all 0.3s ease-out 0s;
   -moz-transition: all 0.3s ease-out 0s;
   -ms-transition: all 0.3s ease-out 0s;
@@ -1586,7 +1586,6 @@ color: #ff6600;
   left: 0;
   height: 100%;
   width: 100%;
-  background-image: url(../images/footer-background.jpg);
   background-position: right center;
   z-index: -1;
   background-size: cover; }
@@ -1603,9 +1602,9 @@ color: #ff6600;
   z-index: -1; }
 
 .footer-widget {
-  padding-top: 50px; }
+  padding-top: 20px; }
 
-.footer-about .logo img {
+/*.footer-about .logo img {
   width: 160px; }
 
 .footer-about .text {
@@ -1627,7 +1626,7 @@ color: #ff6600;
       -o-transition: all 0.3s ease-out 0s;
       transition: all 0.3s ease-out 0s; }
       .footer-about .social li a:hover {
-        color:steelblue; }
+        color:steelblue; }*/
 
 .footer-title .title {
   font-size: 24px;
@@ -1641,10 +1640,10 @@ color: #ff6600;
       padding: 0;
       padding-right: 50px; } }
   .link-wrapper .link {
-    padding-top: 20px;
+    padding-top: 10px;
      }
     .link-wrapper .link li {
-      margin-top: 20px;
+      margin-top: 10px;
       }
       .link-wrapper .link li a {
         font-size: 16px;
@@ -1657,19 +1656,19 @@ color: #ff6600;
         .link-wrapper .link li a:hover {
           color:#fc9432; }
 
-.footer-contact .contact {
+/*.footer-contact .contact {
   padding-top: 20px; }
   .footer-contact .contact li {
     margin-top: 20px;
     font-size: 16px;
     color: #fff; }
     .footer-contact .contact li a:hover {
-      color:#fc9432; }
+      color:#fc9432; }*/
 
 .footer-copyright {
   border-top: 1px solid rgba(255, 255, 255, 0.3);
-  padding-top: 15px;
-  padding-bottom: 30px; }
+  padding-top: 5px;
+  padding-bottom: 15px; }
 
 .copyright-content {
   padding-top: 15px;
@@ -1686,13 +1685,36 @@ color: #ff6600;
     transition: all 0.3s ease-out 0s; }
     .copyright-content a:hover {
       color: #fc9432; }
+
+.social_square_icons ul {
+     margin: 0;
+     padding: 0;
+     list-style: none;
+     margin-left: 450px;
+     margin-top: 300px
+ }
+
+ .social_square_icons ul li:first-child {
+     margin-left: 0px
+ }
+
+ .social_square_icons ul li a {
+     float: left;
+     line-height: 40px;
+     color: #e0e0e0;
+     height: 40px;
+     width: 40px;
+     text-align: center;
+     margin-bottom: 40px;
+     border: 1px solid #e0e0e0
+ }
 /*===== BACK TO TOP =====*/
 .back-to-top {
   font-size: 20px;
   color: #fff;
   position: fixed;
   right: 20px;
-  bottom: 20px;
+  bottom: 30px;
   width: 40px;
   height: 40px;
   line-height: 40px;
