@@ -1774,7 +1774,7 @@ width:auto;
 
 /*===========================
        11.FOOTER  css 
-===========================*/
+===========================
 .footer-area{
   background-position: top center;
   position: relative;
@@ -1792,7 +1792,7 @@ width:auto;
   background-size: cover; }
   @media only screen and (min-width: 1921px) {
     .footer-area::before {
-      height: 1120px; } }*/
+      height: 1120px; } }
 
 #particles-2 {
   position: absolute;
@@ -1803,7 +1803,7 @@ width:auto;
   z-index: -1; }
 
 /*Define custom Width*/
-.custom_container {
+.footer_container {
   position: relative;
   display: block;
   width: 90%;
