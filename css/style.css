@@ -1774,13 +1774,13 @@ width:auto;
 
 /*===========================
        11.FOOTER  css 
-===========================
-.footer-area {
+===========================*/
+.footer-area{
   background-position: top center;
   position: relative;
   z-index: 5; }
 
-.footer-area::before {
+.footer::before {
   position: absolute;
   content: '';
   bottom: 0;
