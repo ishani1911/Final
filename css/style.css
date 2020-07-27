@@ -1802,6 +1802,15 @@ width:auto;
   height: 100%;
   z-index: -1; }
 
+/*Define custom Width*/
+.custom_container {
+  position: relative;
+  display: block;
+  width: 90%;
+  margin: auto;
+  padding-left: 15px;
+  padding-right: 15px; }
+
 footer {
   background-color: #000000;
   color: #fff;
