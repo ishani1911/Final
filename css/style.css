@@ -1912,6 +1912,12 @@ footer a {
 *, ::after, ::before {
     box-sizing: border-box;
 }
+.for_mobile {
+  display: none; }
+
+.for_desktop {
+  display: flex; flex-basis: inherit;
+}
 
 
 
