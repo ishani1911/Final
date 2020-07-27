@@ -1820,7 +1820,12 @@ footer {
   /* background-image: url("../images/bg2.png"); */
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center; }
+  background-position: center;
+   display: block;
+  width: 90%;
+  margin: auto;
+  padding-left: 15px;
+  padding-right: 15px;}
 
 .footer_logo svg {
   width: 12rem;
@@ -1911,12 +1916,6 @@ footer a {
 }
 *, ::after, ::before {
     box-sizing: border-box;
-}
-.for_mobile {
-  display: none; }
-
-.for_desktop {
-  display: flex; flex-basis: inherit;
 }
 
 
