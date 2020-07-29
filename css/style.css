@@ -858,7 +858,7 @@ margin-top: 40px;
           justify-content: center;
   -webkit-transition: .4s;
   transition: .4s;
-  background-color: #fc9432;
+  background-color: transparent;
   color: black;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
