@@ -295,6 +295,7 @@ p {
   top: 0;
   left: 0;
   width: 100%; 
+  height: 72px;	
   z-index: 99;
   /*background-color: #fff;*/
   -webkit-transition: all 0.3s ease-out 0s;
@@ -564,9 +565,16 @@ p {
 /*===== HEADER HERO =====*/
 
 .header-hero {
-  position: relative;
+  /*position: relative;
   z-index: 5;
   background-position: center;
+ position: relative;*/
+    background-image: linear-gradient(135deg, rgba(129, 40, 184, 0.8), rgba(36, 52, 149, 0.9) 56%, rgba(28, 23, 77, 0.95)), url("https://assets.website-files.com/545b7de2766e48c834ce8b85/546b2767bbe0f1b63a20e75a_U7Fc1sy5SCUDIu4tlJY3_NY_by_PhilippHenzler_philmotion.de-min.jpg");
+    background-position: 0px 0px, 50% 50%;
+    background-size: auto, cover;
+    background-attachment: scroll, fixed;
+    -webkit-transition: all 500ms ease;
+    transition: all 500ms ease;	
 }
 #particles-1 {
   position: absolute;
