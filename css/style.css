@@ -1008,8 +1008,7 @@ margin-top: 40px;
      TEAM CSS
 ===========================*/
  .jumbotron{
-        background: url("images/pic1.jpg") center center / cover no-repeat linear-gradient(rgba(0,0,0,0.2));
-	background-position: attached;
+        background: url("images/pic1.jpg") center center / cover no-repeat;
 	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);  
       }
 
@@ -1021,25 +1020,102 @@ margin-top: 40px;
         color: white;
       }
 
-      .card-img-top {
-        border-radius: 50%;
-        width:160px;
-        height: 160px;
-	margin-top: 15px;
-      }
+ .team-grid {
+     background-repeat: no-repeat;
+     color: #000;
+     overflow-x: hidden
+ }
 
-      .card {
-        border: none;
-        align-items: center;
-      }
+.title{
+    
+     color: #fff
+ }
 
-      .card-body {
-        text-align: center;
-      }
+ .intro {
+     font-size: 16px;
+     max-width: 500px;
+     margin: 0 auto
+ }
 
-      .card{
-	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-      }      
+ .intro p {
+     margin-bottom: 0
+ }
+
+ .people {
+     padding: 50px 0;
+     cursor: pointer
+ }
+
+ .item {
+     margin-bottom: 30px
+ }
+
+ .item .box {
+     text-align: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center;
+     height: 280px;
+     position: relative;
+     overflow: hidden
+ }
+
+ .item .cover {
+     position: absolute;
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 100%;
+     background-color: rgba(247, 173, 141,0.35);
+     transition: opacity 0.15s ease-in;
+     opacity: 0;
+     padding-top: 80px;
+     color: #fff;
+     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15)
+ }
+
+ .item:hover .cover {
+     opacity: 1
+ }
+
+ .item .name {
+     font-weight: bold;
+     margin-bottom: 8px;
+       text-align:center; }
+
+ .item .title {
+     text-transform: uppercase;
+     font-weight: bold;
+     color: black;
+     letter-spacing: 2px;
+     font-size: 13px;
+     margin-bottom: 20px
+ }
+
+ .social {
+     font-size: 15px;
+     letter-spacing: 5px;
+ }
+
+ .social a {
+color:inherit;
+     margin: 80px 2px;
+     display: inline-block;
+     opacity: 0.9
+ }
+
+ .social a:hover {
+     opacity: 1
+ }
+
+.item .box{
+  border: 1px solid rgba(100,111,135,.2);
+  border-radius: 5px;
+  -webkit-box-shadow:0 9px 40px 0 rgba(41,54,81,.34);
+  -moz-box-shadow:0 9px 40px 0 rgba(41,54,81,.34);
+  box-shadow:0 9px 40px 0 rgba(41,54,81,.34);
+  overflow:hidden;
+}
 /*=========================
       Testimonials
 ==========================*/
