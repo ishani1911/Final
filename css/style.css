@@ -1751,7 +1751,8 @@ color:inherit;
     bottom:-65px;
     left:0;
     font-size:24px;
-    cursor:pointer
+    cursor:pointer;
+    color: #FFFFFF
   }
 
   .testimonial-content .slick-arrow.next{
@@ -1799,6 +1800,14 @@ color:inherit;
    .testimonial-wrapper .main-btn{
       margin-top:-120px
 }
+}
+
+.testimonial-content .single-testimonial p{
+  color: #FFFFFF
+}
+
+.testimonial-content .holder-name{
+  color: #FFFFFF
 }
 
 
