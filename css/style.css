@@ -23,14 +23,9 @@ body {
   font-weight: normal;
   font-style: normal;
   color: #6A6972;
-  overflow: hidden;
+  overflow-x: visible;
  }
 
- @media(max-width: 575px){
-	 body{		 
-		overflow: auto;
-	 }
-}
 
 * {
   margin: 0;
