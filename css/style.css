@@ -958,7 +958,7 @@ margin-top: 40px;
       -ms-flex-pack: center;
           justify-content: center;
   margin: 0 auto;
-  overflow: hidden;
+  overflow: auto;
 }
 
 @media (min-width: 690px) {
@@ -1024,7 +1024,7 @@ margin-top: 40px;
  .team-grid {
      background-repeat: no-repeat;
      color: #000;
-     overflow-x: hidden
+     overflow-x: auto;
  }
 
 .title{
@@ -1058,7 +1058,7 @@ margin-top: 40px;
      background-position: center;
      height: 280px;
      position: relative;
-     overflow: hidden
+     overflow: auto;
  }
 
  .item .cover {
@@ -1115,7 +1115,7 @@ color:inherit;
   -webkit-box-shadow:0 9px 40px 0 rgba(41,54,81,.34);
   -moz-box-shadow:0 9px 40px 0 rgba(41,54,81,.34);
   box-shadow:0 9px 40px 0 rgba(41,54,81,.34);
-  overflow:hidden;
+  overflow:auto;
 }
 /*=========================
       Testimonials
@@ -1169,7 +1169,7 @@ color:inherit;
   -moz-box-shadow:0 9px 40px 0 rgba(41,54,81,.34);
   box-shadow:0 9px 40px 0 rgba(41,54,81,.34);
   border-radius:50%;
-  overflow:hidden
+  overflow:hidden;
 }
 .testimonial-author .testimonial-author-wrapper{
   position:absolute;
@@ -1435,7 +1435,7 @@ color:inherit;
   -moz-box-shadow:0 9px 40px 0 rgba(41,54,81,.34);
   box-shadow:0 9px 40px 0 rgba(41,54,81,.34);
   border-radius:50%;
-  overflow:hidden
+  overflow:hidden;
 }
 
 .testimonial-author .author-image.author-1{
@@ -1832,7 +1832,8 @@ color:inherit;
       border-radius:0%;
       padding:2px;
       background-color:#fff;
-      overflow:hidden}
+      overflow:hidden;
+}
     .single-blog .blog-content .blog-meta .author img{
         border-radius:0%}
     .single-blog .blog-content .blog-meta .blog-list{
