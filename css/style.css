@@ -23,12 +23,12 @@ body {
   font-weight: normal;
   font-style: normal;
   color: #6A6972;
-  overflow-x: hidden;
+  overflow: hidden;
  }
 
  @media(max-width: 575px){
 	 body{		 
-		overflow-x: auto;
+		overflow: auto;
 	 }
 }
 
