@@ -23,6 +23,7 @@ body {
   font-weight: normal;
   font-style: normal;
   color: #6A6972;
+  overflow-x:hidden;
  }
 
 
@@ -958,7 +959,7 @@ margin-top: 40px;
       -ms-flex-pack: center;
           justify-content: center;
   margin: 0 auto;
-  overflow: auto;
+  overflow: hidden;
 }
 
 @media (min-width: 690px) {
@@ -1024,7 +1025,7 @@ margin-top: 40px;
  .team-grid {
      background-repeat: no-repeat;
      color: #000;
-     overflow-x: auto;
+     overflow-x: hidden;
  }
 
 .title{
@@ -1058,7 +1059,7 @@ margin-top: 40px;
      background-position: center;
      height: 280px;
      position: relative;
-     overflow: auto;
+     overflow: hidden;
  }
 
  .item .cover {
@@ -1115,7 +1116,7 @@ color:inherit;
   -webkit-box-shadow:0 9px 40px 0 rgba(41,54,81,.34);
   -moz-box-shadow:0 9px 40px 0 rgba(41,54,81,.34);
   box-shadow:0 9px 40px 0 rgba(41,54,81,.34);
-  overflow:auto;
+  overflow:hidden;
 }
 /*=========================
       Testimonials
